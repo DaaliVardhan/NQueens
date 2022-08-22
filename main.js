@@ -1,4 +1,4 @@
-let ms = 250;
+let ms = 75;
      
 document.querySelector(".btn").addEventListener("click", (e) => {
         let ip = document.querySelector("input");
@@ -38,9 +38,9 @@ document.querySelector(".btn").addEventListener("click", (e) => {
         }
 
         if (n < 8) {
-          ms = 150;
+          ms = 250;
         } else if (n < 11) {
-          ms = 200;
+          ms = 150;
         }
         return board;
       }
