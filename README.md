@@ -1,0 +1,2 @@
+# NQueens
+NQueen problem visualiser 
